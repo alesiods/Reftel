@@ -1,0 +1,14 @@
+//Propiedades a la seccion de clientes
+.clientes_bg{
+    background-color: #333452;
+    background-image: url("/image/cancha_transparente.png");
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.flex_space{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
