@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- link css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- link bootstrap 5.x -->
@@ -23,29 +24,6 @@
 <body>
 
     <header>
-        <!-- 
-<section>
-    <div id="splashscreen">
-        <div> -->
-        <!-- <img src="./image/cancha_completa.png" class="splash"/> -->
-
-
-        <!-- <video class="splash" controls autoplay muted loop>
-
-                <source src="./video/intro.mp4" type="video/mp4" id="video-intro"/>
-
-
-                </video>
-
-            
-        </div>   
-                
-        <a href="#" class="enter_link"><img src="./image/logo/reftel_blanco.png" alt="logo Reftel" style="width: 15%;"></a>
-    </div>
-</section> -->
-
-
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light navBar_bg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./image/logo_Reftel.jpeg" style="width: 100%"
@@ -58,18 +36,20 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="./html/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./html/contacto.html">Contacto</a>
+                        </li>
+                       
+                        
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="./html/innovacion.html">Innovación</a>
-                        </li>
-                        <li class="nav-item ">
-                            <button class="boton_contacto"><a class="nav_link_contacto"
-                                    href="./html/contacto.html">Contactanos</a></button>
-                        </li>
+                        </li> -->
+                        
                     </ul>
 
                 </div>
@@ -77,8 +57,8 @@
         </nav>
     </header>
 
-    <main style="background-color: #333452;">
-        <!-- seccion hero -->
+    
+        <!-- seccion video -->
         <section class="hero_bg">
 
             <video class="video_bg" controls="controls" autoplay muted loop>
@@ -90,117 +70,19 @@
 
             <div class="container">
                 <div class="texto_video">
-                    <p>Soluciones</p>
-                    <p class="text_red">tecnológicas</p>
-                    <p>aplicadas</p>
-                    <p class="text_red">al deporte.</p>
+                    <h2>Reftel</h2>
+                    
+                    <p>Soluciones tecnológicas</p>
+                    <p>aplicadas al deporte</p>
+                    
                 </div>
             </div>
         </section>
 
-        <!-- Nuestra historia -->
-        <section class="historia_bg">
-            <div class="container">
-                <h2>Nuestra Historia</h2>
+        <!-- seccion tarjetas -->
 
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-6">
-                        <p>
-                            Somos una empresa argentina creada en el año 2006 con el propósito de
-                            optimizar la calidad del servicio que presta el arbitraje en nuestro país.
-                        </p>
-                        <p>
-                            Inicialmente comenzamos a brindar nuestros servicios de comunicación a la
-                            Asociación del Fútbol Argentino más precisamente a los árbitros de la Primera
-                            División A, quien gracias a las últimas estadísticas resultó ser la quinta liga de
-                            fútbol a nivel importancia y competitividad en el mundo según la FIFA.
-                        </p>
-                        <p>
-                            Gracias a la calidad de nuestro servicio, un año después, implementamos los
-                            INTERCOM tanto en la Segunda División como en los partidos más relevantes de
-                            la tercera división en el futbol Argentino, incluyendo también los torneos de
-                            verano que son organizados en etapa de pretemporada de los equipos de la
-                            máxima división.
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-md-6">
-                        <p>
-                            Luego de trece (13) años ininterrumpidos de brindar nuestro servicio, en
-                            noviembre del 2019, REFTEL, fue adjudicada como proveedora de los servicios
-                            VAR, por Cuatro (4) años.
-                        </p>
-                        <p>
-                            REFTEL fue homologada con la más alta calificación por FIFA/IFAB como una de
-                            las tres (3) empresas oficiales en el mundo están habilitadas para implementar el VAR.
-                            Siendo también la única empresa en el continente Americano.
-                        </p>
-                        <p>
-                            Lideramos el desembarco del VAR en el fútbol Argentino, siendo la
-                            implementación de tecnología de mayor magnitud hasta el momento en el futbol a
-                            nivel mundial.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- parte de los videos y las card -->
-        <section class="videos_bg">
-            <div class="container">
-                <div>
-                    <video class="video_intro" controls="controls">
-
-                        <source src="./video/reftel.mp4" type="video/mp4" />
-
-
-                    </video>
-
-                </div>
-
-
-                <!-- <div class="row gx-5 ">
-                    <div class="col-12 col-sm-6 col-md-6 video_padding flex_center ">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/AZRMahUI8Go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-6 video_padding flex_center">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Iy-imguLZAU?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div> -->
-                <div class="row gx-5 ">
-                    <div class="col-12 col-sm-6 col-md-6 card_padding flex_center">
-                        <div class="card ">
-                            <img src="./image/card1.PNG" class="card-img-top" alt="personas viendo el VAR"
-                                style="width: 100%;">
-                            <div class="card-body">
-                                <h5 class="card-title">Llega el VAR a la Argentina:</h5>
-                                <p class="card-text">los detalles del proyecto de la AFA y cuándo comenzará a
-                                    utilizarse.
-                                    "Mínima interferencia. Máximo beneficio". Bajo esa máxima, el VAR empieza a emerger
-                                    en el fútbol argentino.</p>
-                                <a href="https://www.lanacion.com.ar/deportes/futbol/var-futbol-argentino-arbitros-nid2548431/?gclid=CjwKCAjwsNiIBhBdEiwAJK4khgN1yohOp9xcRYESPYi8j3S4lnoJeOk4W5-NV6RxgyCTsTtBt3l0NxoC9u0QAvD_BwE
-                                " class="btn btn-primary">Ver Más</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-6 card_padding flex_center">
-                        <div class="card">
-                            <img src="./image/card2.PNG" class="card-img-top" alt="personas reunidas">
-                            <div class="card-body">
-                                <h5 class="card-title">Avanza el VAR en la Argentina</h5>
-                                <p class="card-text">Autoridades de AFA, Superliga, IFAB, FIFA y Conmebol se reunieron
-                                    para implementar la asistencia arbitral por video en nuestro fútbol.</p>
-                                <a href="https://www.ole.com.ar/futbol-primera/reunion-implementacion-var-argentina_0_idL99Ja3.html"
-                                    class="btn btn-primary">Ver Más</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+       <section>
+                
         </section>
 
         <!-- seccion de clientes -->
