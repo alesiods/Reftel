@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reftel | Inicio</title>
-    <!-- tipografias -->
+    <title>Reftel</title>
+    <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -14,23 +14,19 @@
     <!-- link css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- link bootstrap 5.x -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-
     <header>
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light navBar_bg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./image/logo_Reftel.jpeg" style="width: 100%"
-                        alt="Logo Reftel"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#"><img src="./image/logo_Reftel.jpeg" style="width: 10%" alt="Logo Reftel"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -44,22 +40,19 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="./html/contacto.html">Contacto</a>
                         </li>
-                       
-                        
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="./html/innovacion.html">Innovación</a>
-                        </li> -->
-                        
                     </ul>
-
                 </div>
             </div>
         </nav>
     </header>
-
-    
+    <main>
+        <section>
+            <video controls="controls" autoplay muted loop>
+                <source src="./video/intro.mp4" type="video/mp4" />
+            </video>
+        </section>
         <!-- seccion video -->
-        <section class="hero_bg">
+        <!-- <section class="hero_bg">
 
             <video class="video_bg" controls="controls" autoplay muted loop>
 
@@ -71,27 +64,66 @@
             <div class="container">
                 <div class="texto_video">
                     <h2>Reftel</h2>
-                    
+
                     <p>Soluciones tecnológicas</p>
                     <p>aplicadas al deporte</p>
-                    
+
                 </div>
+            </div>
+        </section> -->
+
+        <!-- Seccion Productos -->
+        <section class="container-fluid">
+            <h3>Nuestros Productos</h3>
+            <div class="margenArriba">
+                <div class="card mb-3 ubicacionCard" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/image/Group 45.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Intercomunicadores</h5>
+                                <p class="card-text">Equipos totalmente adaptados para usarse en ambiente ruidoso, interior y exterior: estadio, gimnasios y cualquier tipo de contexto en donde pueda desarrollarse un deporte.</p>
+                                <button class="btn btn-dark">Ver Mas</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 ubicacionCard" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">VAR</h5>
+                                <p class="card-text">Nuestra herramienta es la más flexible del mercado, se adapta a la necesidad de nuestros clientes. Buscamos el equilibrio entre la potencia, la confiabilidad y el costo.</p>
+                                <button class="btn btn-dark">Ver Mas</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4>Contamos con mas de 15 años de experiencia</h4>
+        </section>
+
+        <!-- Seccion Caracteristicas -->
+        <section class="container-fluid">
+            <h4>Implementación tecnológica customizada en todos los deportes</h4>
+            <div class="row ubicacionCaract">
+                <p class="col-2 ">Aprendemos de nuestros clientes e ideamos soluciones creativas para cada necesidad </p>
+                <p class="col-2">Analizamos cada caso y construimos una representacion de una o varias ideas para poder mostrar</p>
+                <p class="col-2">Evaluamos junto al cliente y obtenemos el feedback para considerar posibles mejoras</p>
             </div>
         </section>
 
-        <!-- seccion tarjetas -->
-
-       <section>
-                
-        </section>
-
-        <!-- seccion de clientes -->
-        <section class="clientes_bg">
+        <!-- Seccion Clientes -->
+        <section>
             <div class="container">
-                <h4>Trabajamos con:</h4>
-                <div class="row ">
-                    <div class="col-12 col-sm-4 flex_space">
-
+                <h4>Trabajamos con</h4>
+                <div class="row padding">
+                    <div class="col-12 col-sm-4 flex_space ">
                         <img src="./image/logoFifa.png" alt="logo AFA" style="width: 40%;">
                     </div>
                     <div class="col-12 col-sm-4 flex_space">
@@ -105,32 +137,15 @@
                 </div>
             </div>
         </section>
-
     </main>
-    <footer class="footer_bg flex_footer">
-        <a class="etiqueta" href="./html/contacto.html"><img src="./image/logo/logo_Footer.png" alt="logo Reftel"
-                style="width: 5%; padding-bottom: 2%;"></a>
-        <div style="padding-bottom: 1rem;">
-            <span><img src="./image/maps.png" style="width:3%" /></span>
-            <a class="footer_links" href="./html/contacto.html">Basavilbaso 1378 6to, C1006AAD, CABA</a>
-        </div>
-        <div>
-            <span><img src="./image/phone.png" style="width:3%" /></span>
-            <a class="footer_links" href="./html/contacto.html">+54 9 11 67805747</a>
+
+    <footer class="container-fluid cajaFooter">
+        <div class="centrar">
+            <img src="/image/logo/reftel_blanco.png" alt="logofooter" width="10%">
+            <p>+54 9 11 67805747</p>
+            <p>Basavilbaso 1378, CABA</p>
         </div>
     </footer>
-
-    <!-- Apartado de JS -->
-    <script src="./js/app.js"></script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
-        </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
-        </script>
-
 </body>
 
 </html>
