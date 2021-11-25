@@ -27,6 +27,19 @@ h4 {
     margin-top: 50px;
 }
 
+/* Seccion Navbar */
+
+.navBar_bg{
+
+    z-index: 1;
+    
+
+}
+
+.header .navbar {
+    background-color: transparent !important;
+  }
+
 
 /* Seccion Video */
 
@@ -46,7 +59,7 @@ h4 {
 .video_bg {
     width: 100%;
     position: relative;
-    margin-top: -20px;
+    margin-top: -45px;
 }
 
 .texto_video {
