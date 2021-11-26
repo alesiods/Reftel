@@ -119,6 +119,11 @@ ul li a {
     justify-content: center;
 }
 
+.img-fondo{
+    width:100% ;
+    
+}
+
 
 /* Seccion Clientes */
 
@@ -164,6 +169,19 @@ ul li a {
 
 /*Contacto*/
 
+
+.mensaje {
+    margin-left: 150px;
+    margin-top: 50px;
+    size: 80px;
+    line-height: 40px;
+}
+
+.mensaje-contacto{
+    margin-left: 150px;
+    padding: 0;
+}
+
 .contenedor-contacto {
     display: flex;
     justify-content: space-around;
@@ -205,3 +223,46 @@ footer {
     padding-top: 50px;
     height: 45vh;
 }
+
+
+
+
+/* Pagina nosotros */
+
+
+.img-portada-nosotros {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/portadanosotros.png);
+    height: 760px;
+    width: 100%;
+    background-size: cover;
+}
+
+.texto_nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 470px;
+    color: white;
+}
+
+
+/* Texto nosotros */
+
+.nuestra-historia {
+    margin-left: 122px;
+    margin-top: 50px;
+    size: 80px;
+    line-height: 40px;
+}
+
+.texto-nosotros{
+    color: black;
+    margin-left: 122px;
+    margin-right: 100px;
+}
+
