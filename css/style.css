@@ -10,6 +10,11 @@ body {
 
 /* Generales */
 
+h2 {
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 40px;
+}
 
 h3 {
     margin-left: 120px;
@@ -27,41 +32,46 @@ h4 {
     margin-top: 50px;
 }
 
+.noMostrar {
+    display: none;
+}
+
+
 /* Seccion Navbar */
 
-.navBar_bg{
-     
-    z-index: 1;
-    position: absolute;
-    
-    }
-
-.bg-light {
-        background-color: transparent !important;
-        opacity: 0;
-        
+.navbar-nav {
+    justify-content: flex-end;
+    width: 80%;
 }
-  
+
+.gris {
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.negro {
+    background-color: black;
+}
+
+ul li {
+    padding-left: 50px;
+}
+
 ul li a {
     color: white !important;
-    
+    font-weight: 600;
     font-size: 19px;
     line-height: 20px;
 }
 
-/* Seccion Portada */
 
+/* Seccion Portada */
 
 .img-portada-home {
     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/fondohome.png);
-    height: 650px;
+    height: 760px;
     width: 100%;
     background-size: cover;
-    margin-top: -50px;
 }
-
-
-
 
 .texto_video {
     display: flex;
@@ -72,19 +82,17 @@ ul li a {
     font-weight: bold;
     position: absolute;
     margin-top: -500px;
-    color:white;
+    color: white;
 }
 
 
 /* Seccion Productos */
 
-.nuestros-productos{
-
+.nuestros-productos {
     margin-left: 122px;
     margin-top: 50px;
     size: 80px;
     line-height: 40px;
-
 }
 
 .ubicacionCard {
@@ -95,32 +103,26 @@ ul li a {
     background-color: #353554 !important;
 }
 
-.card{
+.card {
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-   
 }
 
 
 /* Seccion Caracteristicas */
 
-.experiencia{
+.experiencia {
     margin: 50px;
 }
-
-
 
 .ubicacionCaract {
     justify-content: center;
 }
 
 
-
-
-
 /* Seccion Clientes */
 
-.container{
+.container {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
@@ -129,7 +131,6 @@ ul li a {
 .contenedor-fondo {
     display: flex;
     justify-content: space-around;
-    
 }
 
 .ubicacionCaract {
