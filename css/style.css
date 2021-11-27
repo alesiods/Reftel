@@ -48,8 +48,8 @@ h4 {
     background-color: rgba(0, 0, 0, 0.199);
 }
 
-.negro {
-    background-color: black;
+.azul {
+    background-color: #353554;
 }
 
 ul li {
@@ -119,9 +119,17 @@ ul li a {
     justify-content: center;
 }
 
-.img-fondo{
-    width:100% ;
-    
+.img-fondo {
+    width: 100%;
+}
+
+.tamanioCaract {
+    width: 264px !important;
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -169,7 +177,6 @@ ul li a {
 
 /*Contacto*/
 
-
 .mensaje {
     margin-left: 150px;
     margin-top: 50px;
@@ -177,7 +184,7 @@ ul li a {
     line-height: 40px;
 }
 
-.mensaje-contacto{
+.mensaje-contacto {
     margin-left: 150px;
     padding: 0;
 }
@@ -225,10 +232,7 @@ footer {
 }
 
 
-
-
 /* Pagina nosotros */
-
 
 .img-portada-nosotros {
     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/portadanosotros.png);
@@ -260,9 +264,8 @@ footer {
     line-height: 40px;
 }
 
-.texto-nosotros{
+.texto-nosotros {
     color: black;
     margin-left: 122px;
     margin-right: 100px;
 }
-

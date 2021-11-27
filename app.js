@@ -4,7 +4,7 @@
              $('#navscroll').addClass("gris");
          } else {
              $('#navscroll').removeClass("gris");
-             $('#navscroll').addClass("negro");
+             $('#navscroll').addClass("azul");
          }
      });
  });
@@ -12,9 +12,9 @@
  $(function() {
      $(window).scroll(function() {
          if ($(this).scrollTop() > 720) {
-             $('#navscroll').addClass("negro");
+             $('#navscroll').addClass("azul");
          } else {
-             $('#navscroll').removeClass("negro");
+             $('#navscroll').removeClass("azul");
              $('#navscroll').addClass("gris");
          }
      });
