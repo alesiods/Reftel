@@ -340,7 +340,7 @@ footer {
 
 .cardnosotros {
     width: 507px;
-    height: 706px;
+    height: 620px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -437,4 +437,12 @@ footer {
 .texto-cardProductos {
     font-size: 19px;
     line-height: 29px;
+}
+
+.card i {
+    color: #353554;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0em 0.3em;
 }
