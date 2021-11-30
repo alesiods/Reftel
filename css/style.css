@@ -53,6 +53,10 @@ h5 {
     width: 80%;
 }
 
+.navbar-brand{
+    margin-left: 30px;
+}
+
 .gris {
     background-color: rgba(0, 0, 0, 0.199);
 }
@@ -445,4 +449,13 @@ footer {
     text-decoration: none;
     font-size: 1.5em;
     padding: 0em 0.3em;
+}
+
+
+
+.video-productos{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
