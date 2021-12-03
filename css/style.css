@@ -274,6 +274,11 @@ ul li a {
     color: black;
 }
 
+.div-infoSmart a{
+    text-decoration: none;
+    color:black;
+}
+
 .mapa {
     width: 473px;
     height: 323px;
