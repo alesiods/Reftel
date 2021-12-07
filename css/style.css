@@ -503,3 +503,40 @@ footer {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+
+
+
+/* RESPONSIVE MOBILE */
+
+/*Navbar*/
+
+@media (max-width: 581px) {
+
+    h1{
+        font-size: 40px;
+        
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 15px;
+    }
+    
+}
+
+@media (max-width: 581px) {
+
+    .container-fluid{
+        height: 30px;
+    }
+
+    .navbar-brand{
+        margin-left: 175px;
+    }
+
+    .navbar-toggler{
+        margin-top: -35px;
+    }
+
+}
