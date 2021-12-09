@@ -528,15 +528,15 @@ footer {
 @media (max-width: 581px) {
 
     .container-fluid{
-        height: 30px;
+        height: 20px;
     }
 
     .navbar-brand{
-        margin-left: 175px;
+        margin-left: 45px;
     }
 
     .navbar-toggler{
-        margin-top: -35px;
+        margin-top: -45px;
     }
 
 }
