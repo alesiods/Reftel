@@ -523,20 +523,38 @@ footer {
         line-height: 15px;
     }
     
-}
 
-@media (max-width: 581px) {
 
     .container-fluid{
-        height: 20px;
+        height: 30px;
     }
 
     .navbar-brand{
-        margin-left: 45px;
+        margin-left: 350px;
     }
 
     .navbar-toggler{
         margin-top: -45px;
     }
+
+
+    /* Home*/
+
+    /* Seccion portada */
+    .img-portada-home {
+        width: 581px;
+        height: 581px;
+    }
+
+   .container{
+       margin-top: 250px;
+   }
+
+   /* Productos */
+
+   .nuestros-productos{
+       margin-left: 0px;
+       
+   }
 
 }
