@@ -513,9 +513,16 @@ footer {
 
 @media (max-width: 581px) {
 
-    h1{
-        font-size: 30px;
+    h1 {
+        font-weight: 600;
+    font-size: 40px;
+    line-height: 20px
         
+    }
+
+    h2 {
+        font-size: 15px;
+        line-height: 29px;
     }
 
     p{
@@ -530,7 +537,11 @@ footer {
     }
 
     .navbar-brand{
-        margin-left: 200px;
+        margin-left: 180px;
+    }
+
+    .logoUbicacion{
+        width: 18%;
     }
 
     .navbar-toggler{
@@ -556,6 +567,33 @@ footer {
        margin-left: 0px;
        margin-top: -300px;
        
+   }
+
+
+
+   /* Nosotros*/
+
+   /* Portada*/
+
+   .img-portada-nosotros{
+    
+    width: 375px;
+    height: 375px;
+
+   }
+
+
+
+
+   /* Productos*/
+
+   /* Portada*/
+
+   .img-portada-productos{
+    
+    width: 375px;
+    height: 375px;
+
    }
 
 }
