@@ -514,13 +514,13 @@ footer {
 @media (max-width: 581px) {
 
     h1{
-        font-size: 40px;
+        font-size: 30px;
         
     }
 
     p{
-        font-size: 20px;
-        line-height: 15px;
+        font-size: 15px;
+        line-height: 10px;
     }
     
 
@@ -530,7 +530,7 @@ footer {
     }
 
     .navbar-brand{
-        margin-left: 350px;
+        margin-left: 200px;
     }
 
     .navbar-toggler{
@@ -542,18 +542,19 @@ footer {
 
     /* Seccion portada */
     .img-portada-home {
-        width: 581px;
-        height: 581px;
+        width: 375px;
+        height: 375px;
     }
 
    .container{
-       margin-top: 250px;
+       margin-top: 350px;
    }
 
    /* Productos */
 
    .nuestros-productos{
        margin-left: 0px;
+       margin-top: -300px;
        
    }
 
