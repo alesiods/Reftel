@@ -596,7 +596,9 @@ footer {
     .btn {
         font-size: 12px !important;
         line-height: 29px !important;
+        padding: 0.2rem 0.75rem !important;
     }
+
     /* Seccion Caracteristicas */
     .ubicacionCaract {
         color: white;
@@ -610,6 +612,7 @@ footer {
         justify-content: center;
         width: 100% !important;
     }
+
     .ubicacionCaract H4 {
         font-size: 15px;
         line-height: 20px;
@@ -704,7 +707,8 @@ footer {
     }
     .cajaFooter {
         padding-top: 50px;
-        height: 35vh;
+        width: 375px;
+        height: 150px;
     }
     .logoFooter {
         width: 21%;
