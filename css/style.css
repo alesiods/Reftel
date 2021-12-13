@@ -327,24 +327,25 @@ footer {
 /* Texto nosotros */
 
 .nuestra-historia {
-    margin-left: 122px;
+    margin-left: 25px;
     margin-top: 50px;
-    size: 80px;
+    font-size: 37px;
     line-height: 40px;
 }
 
-.texto-nosotros p {
+.texto-nosotros {
     color: black;
-    margin-left: 18px;
+    margin-left: 122px;
+    margin-right: 100px;
     font-family: 'Merriweather', serif;
-    font-size: 11px;
-    line-height: 15px;
+    font-size: 19px;
+    line-height: 38px;
 }
 
 
 /* noticias */
 
-/* .container-nosotros {
+.container-nosotros {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -384,7 +385,7 @@ footer {
     width: 200px;
     margin-left: 30px;
     border-radius: 10px;
-} */
+}
 
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -740,22 +741,24 @@ footer {
     
     
     /* Texto nosotros */
-    
+
     .nuestra-historia {
-        margin-left: 25px;
+        margin-left: 122px;
         margin-top: 50px;
-        font-size: 37px;
+        size: 80px;
         line-height: 40px;
     }
     
     .texto-nosotros {
         color: black;
-        margin-left: 122px;
-        margin-right: 100px;
+        margin-left: 22px !important;
+        margin-right: 22px !important;
         font-family: 'Merriweather', serif;
-        font-size: 19px;
-        line-height: 38px;
+        font-size: 11px !important;
+        line-height: 15px !important;
     }
+    
+   
     
     
     /* noticias */
