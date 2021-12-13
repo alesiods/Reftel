@@ -274,9 +274,9 @@ ul li a {
     color: black;
 }
 
-.div-infoSmart a{
+.div-infoSmart a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .mapa {
@@ -505,95 +505,225 @@ footer {
 }
 
 
-
-
 /* RESPONSIVE MOBILE */
 
-/*Navbar*/
-
 @media (max-width: 581px) {
-
-    h1 {
-        font-weight: 600;
-    font-size: 40px;
-    line-height: 20px
-        
+    /* Generales */
+    .noMostrarMobile {
+        display: none;
     }
-
+    .mostrarMobile {
+        display: block;
+    }
     h2 {
-        font-size: 15px;
-        line-height: 29px;
+        font-weight: bold !important;
+        font-size: 21px !important;
     }
-
-    p{
+    h5 {
+        font-weight: 600;
+        font-size: 13px !important;
+        line-height: 20px;
+    }
+    p {
         font-size: 15px;
         line-height: 10px;
     }
-    
-
-
-    .container-fluid{
-        height: 30px;
+    /* Nav */
+    .navbar-nav {
+        justify-content: flex-end;
+        width: 80%;
     }
-
-    .navbar-brand{
+    .navbar-brand {
         margin-left: 180px;
     }
-
-    .logoUbicacion{
-        width: 18%;
+    .logoUbicacion {
+        width: 30%;
     }
-
-    .navbar-toggler{
+    .navbar-toggler {
         margin-top: -45px;
     }
-
-
-    /* Home*/
-
+    /* HOME*/
     /* Seccion portada */
     .img-portada-home {
+        height: 375px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .texto_video {
+        position: absolute;
+        margin-top: -312px;
+        color: white;
+    }
+    .texto_video p {
+        font-size: 13px;
+    }
+    .texto_video h1 {
+        font-size: 35px;
+    }
+    /* Productos */
+    .nuestros-productos {
+        margin-left: 10px;
+        margin-top: -50px;
+        margin-bottom: -30px;
+        size: 20px;
+        line-height: 40px;
+    }
+    .card {
+        width: 330px;
+    }
+    .card-body {
+        margin-left: 0px;
+    }
+    .card-title {
+        font-size: 13px !important;
+        line-height: 20px;
+        padding-left: 0;
+    }
+    .card-text {
+        font-family: Merriweather;
+        font-size: 11px;
+        line-height: 15px;
+        color: black;
+        padding-left: 0;
+    }
+    .btn-dark {
+        width: 96px;
+        height: 35px;
+        border-radius: 8px !important;
+        margin-left: 0px;
+    }
+    .btn {
+        font-size: 12px !important;
+        line-height: 29px !important;
+    }
+    /* Seccion Caracteristicas */
+    .ubicacionCaract {
+        color: white;
+        font-weight: 20;
+        font-size: 20px;
+        line-height: 70px;
+        position: absolute;
+        z-index: 1;
+        padding-top: 20px;
+        padding-left: 0;
+        justify-content: center;
+        width: 100% !important;
+    }
+    .ubicacionCaract H4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .tamanioCaract {
+        width: 234px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .tamanioCaract i {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .tamanioCaract p {
+        font-family: Merriweather;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    /* Seccion Clientes */
+    .container {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .experiencia {
+        margin: 20px;
+    }
+    .experiencia h4 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .paddingClientes {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .tamanioImgMobile {
+        width: 65% !important;
+    }
+    /*Contacto*/
+    .mensaje {
+        margin-left: 145px;
+        margin-top: 0px;
+        line-height: 40px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .contenedor-unoContacto {
+        width: 299px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .mensaje-contacto {
+        color: black;
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .form-control {
+        width: 299px !important;
+    }
+    .contenedor-unoContacto .btn-dark {
+        margin-top: 10px;
+        border: none;
+        border-radius: 8px;
+    }
+    .btn-sm {
+        width: 299px;
+        font-size: 12px !important;
+        line-height: 29px !important;
+    }
+    .contenedor-dosContacto {
+        margin: 0 auto;
+    }
+    .mapa {
+        margin-top: 15px;
+        width: 299px;
+        height: 234px;
+    }
+    .div-infoSmart p {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    /* Footer */
+    footer {
+        background-color: #00000009;
+    }
+    .cajaFooter {
+        padding-top: 50px;
+        height: 35vh;
+    }
+    .logoFooter {
+        width: 21%;
+    }
+    .cajaFooter p {
+        font-size: 11px;
+        line-height: 19px;
+        margin-bottom: 0px;
+    }
+    /* PAGINA NOSOTROS*/
+    /* Portada*/
+    .img-portada-nosotros {
         width: 375px;
         height: 375px;
     }
-
-   .container{
-       margin-top: 350px;
-   }
-
-   /* Productos */
-
-   .nuestros-productos{
-       margin-left: 0px;
-       margin-top: -300px;
-       
-   }
-
-
-
-   /* Nosotros*/
-
-   /* Portada*/
-
-   .img-portada-nosotros{
-    
-    width: 375px;
-    height: 375px;
-
-   }
-
-
-
-
-   /* Productos*/
-
-   /* Portada*/
-
-   .img-portada-productos{
-    
-    width: 375px;
-    height: 375px;
-
-   }
-
+    /* PAGINA PRODUCTOS*/
+    /* Portada*/
+    .img-portada-productos {
+        width: 375px;
+        height: 375px;
+    }
 }
