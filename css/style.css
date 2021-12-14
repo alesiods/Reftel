@@ -130,6 +130,7 @@ ul li a {
 .btn-dark {
     background-color: #353554 !important;
     width: 120px;
+    font-weight: 600;
     height: 42px;
     border-radius: 8px !important;
     margin-left: 27px;
@@ -141,7 +142,7 @@ ul li a {
 }
 
 .card {
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -170,7 +171,7 @@ ul li a {
     position: absolute;
     z-index: 1;
     padding-top: 150px;
-    padding-left: 50px;
+    padding-left: 30px;
     justify-content: center;
 }
 
