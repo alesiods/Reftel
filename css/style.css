@@ -900,38 +900,50 @@ Height:189px;
 
 /* Var */
 
-/* .fondoVar {
-    background-image: url(../image/fondoproductos.png);
-}
+
 
 .ubicacionVar {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: 300px;
 }
 
 .tituloVar {
-    padding-top: 200px;
-    margin-left: 122px;
+    margin-left: 22px;
+        margin-top: 350px;
+        size: 80px;
+        line-height: 40px;
+}
+
+.imagen-var{
+    margin-top: -290px;
+    Width: 339px;
+    Height: 244px;
+    margin-left: -355px;
 }
 
 .tamanio-textoVar {
     width: 588px;
-    margin-left: 2px;
+    margin-left: -10px;
+    margin-top: -270px;
 }
 
 .tamanio-textoVar p {
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
-    line-height: 38px;
-    margin-top: 20px;
     color: black;
+    margin-left: 30px !important;
+    margin-right: 5px !important;
+    margin-top: 300px !important;
+    font-family: 'Merriweather', serif;
+    font-size: 11px !important;
+    line-height: 15px !important;
 }
 
 .video-productos {
-    width: 80%;
-    margin-left: 150px;
-    margin-top: 100px;
+    Width: 339px;
+    Height: 230px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 50px;
     margin-bottom: 100px;
-}  */
+} 
 }
