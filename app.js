@@ -1,7 +1,7 @@
 /*Navbar transparente a Navbar color*/
 
-$(function() {
-    $(window).scroll(function() {
+$(function () {
+    $(window).scroll(function () {
         if ($(this).scrollTop() < 320) {
             $('#navscroll').addClass("gris");
         } else {
@@ -11,8 +11,8 @@ $(function() {
     });
 });
 
-$(function() {
-    $(window).scroll(function() {
+$(function () {
+    $(window).scroll(function () {
         if ($(this).scrollTop() > 320) {
             $('#navscroll').addClass("azul");
         } else {
@@ -24,6 +24,7 @@ $(function() {
 
 
 /*Funcion Formulario*/
+
 const $form = document.querySelector('#form')
 $form.addEventListener('submit', handleSubmit)
 
@@ -38,13 +39,5 @@ async function handleSubmit(event) {
         }
     })
 
-    if (response.ok) {
-        this.reset()
-        swal({
-            title: "Tu mensaje fue enviado!",
-            text: "Gracias por contactarte, nos comunicaremos con vos lo mas pronto posible.",
-            icon: "success",
-        });
 
-    }
 }
