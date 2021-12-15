@@ -328,7 +328,7 @@ footer {
 /* Texto nosotros */
 
 .nuestra-historia {
-    margin-left: 25px;
+    margin-left: 122px;
     margin-top: 50px;
     font-size: 37px;
     line-height: 40px;
@@ -506,6 +506,9 @@ footer {
 }
 
 
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+
 /* RESPONSIVE MOBILE */
 
 @media (max-width: 581px) {
@@ -599,7 +602,6 @@ footer {
         line-height: 29px !important;
         padding: 0.2rem 0.75rem !important;
     }
-
     /* Seccion Caracteristicas */
     .ubicacionCaract {
         color: white;
@@ -613,7 +615,6 @@ footer {
         justify-content: center;
         width: 100% !important;
     }
-
     .ubicacionCaract H4 {
         font-size: 15px;
         line-height: 20px;
@@ -722,34 +723,27 @@ footer {
     /* PAGINA NOSOTROS*/
     /* Portada*/
     .img-portada-nosotros {
-        width: 375px;
+        width: 100%;
         height: 375px;
     }
-     
-
     .titulo_nosotros {
         position: absolute;
         margin-top: -85px;
         margin-left: 0px;
         color: white;
     }
-    
     .titulo_nosotros h1 {
         font-weight: 600;
         font-size: 35px;
         line-height: 20px;
     }
-    
-    
     /* Texto nosotros */
-
     .nuestra-historia {
         margin-left: 22px;
         margin-top: 20px;
         size: 80px;
         line-height: 40px;
     }
-    
     .texto-nosotros {
         color: black;
         margin-left: 22px !important;
@@ -759,18 +753,12 @@ footer {
         font-size: 11px !important;
         line-height: 15px !important;
     }
-    
-   
-    
-    
     /* noticias */
-    
     .container-nosotros {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
     .cardnosotros {
         width: 329px;
         height: 329px;
@@ -782,14 +770,12 @@ footer {
         background-color: white;
         border: 0.5px solid #cccccc;
     }
-    
     .card-title {
         font-size: 13px !important;
         line-height: 20px;
         padding-left: 10px;
         margin-top: 15px;
     }
-    
     .card-text {
         text-decoration: none;
         color: black;
@@ -798,7 +784,6 @@ footer {
         font-size: 11px;
         line-height: 15px;
     }
-    
     .container-nosotros .btn-dark {
         background-color: #353554;
         border: 0.1px solid #353554;
@@ -806,145 +791,116 @@ footer {
         margin-left: 30px;
         border-radius: 10px;
     }
-
-
-
-
-
     /* PAGINA PRODUCTOS*/
     /* Portada*/
     .img-portada-productos {
-        width: 375px;
+        width: 100%;
         height: 375px;
     }
-
     .titulo_productos {
         position: absolute;
         margin-top: -85px;
         margin-left: 0px;
         color: white;
     }
-    
     .titulo_productos h1 {
         font-weight: 600;
         font-size: 35px;
         line-height: 20px;
     }
-
-/* intercomunicadores */
-
-.titulo-intercomunicador {
-    margin-left: 22px;
+    /* intercomunicadores */
+    .titulo-intercomunicador {
+        margin-left: 22px;
         margin-top: 20px;
         size: 80px;
         line-height: 40px;
-}
-
-.productos-ubicacion {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10px;
-}
-
-.tamanio-textoIntercomunicador {
-    width: 588px;
-    margin-left: -10px;
-}
-
-.img-intercomunicador{
-    width: 220px;
-    height: 290px;
-    margin-left: -260px;
-    margin-right: 75px;
-    margin-top: 8px;
-    padding: 30px;
-}
-
-.tamanio-textoIntercomunicador p {
-    color: black;
+    }
+    .productos-ubicacion {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    .tamanio-textoIntercomunicador {
+        width: 588px;
+        margin-left: -10px;
+    }
+    .img-intercomunicador {
+        width: 220px;
+        height: 300px;
+        margin-left: -260px;
+        margin-right: 75px;
+        margin-top: 8px;
+        padding: 30px;
+    }
+    .tamanio-textoIntercomunicador p {
+        color: black;
         margin-left: 30px !important;
         margin-right: 5px !important;
         margin-top: 300px !important;
         font-family: 'Merriweather', serif;
         font-size: 11px !important;
         line-height: 15px !important;
-}
-
-
-/* Cards productos */
-
-.productos-card {
-    justify-content: space-evenly;
-    Width:256px;
-Height:189px;
-}
-
-.titulo-cardProductos {
-    font-size: 23px !important;
-    line-height: 40px;
-}
-
-.texto-cardProductos {
-    color: black;
-    font-size: 19px;
-    line-height: 29px;
-}
-
-.card i {
-    color: #353554;
-    margin-top: 25px;
-    text-decoration: none;
-    font-size: 1.5em;
-    padding: 0em 0.3em;
-} 
-
-
-/* Var */
-
-
-
-.ubicacionVar {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 300px;
-}
-
-.tituloVar {
-    margin-left: 22px;
-        margin-top: 350px;
+    }
+    /* Cards productos */
+    .margen-cardMobile {
+        margin-left: 15px;
+    }
+    .titulo-cardProductos {
+        font-size: 12px !important;
+        line-height: 40px;
+        text-align: center;
+    }
+    .texto-cardProductos {
+        color: black;
+        font-size: 11px;
+        line-height: 20px;
+        text-align: center;
+        width: 182px;
+        margin: 0 auto;
+    }
+    /* Var */
+    .fondoVar {
+        background-image: url(../image/fondoproductos.png);
+    }
+    .ubicacionVar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 300px;
+    }
+    .tituloVar {
+        margin-left: 22px;
+        margin-top: -100px;
         size: 80px;
         line-height: 40px;
-}
-
-.imagen-var{
-    margin-top: -290px;
-    Width: 339px;
-    Height: 244px;
-    margin-left: -355px;
-}
-
-.tamanio-textoVar {
-    width: 588px;
-    margin-left: -10px;
-    margin-top: -270px;
-}
-
-.tamanio-textoVar p {
-    color: black;
-    margin-left: 30px !important;
-    margin-right: 5px !important;
-    margin-top: 300px !important;
-    font-family: 'Merriweather', serif;
-    font-size: 11px !important;
-    line-height: 15px !important;
-}
-
-.video-productos {
-    Width: 339px;
-    Height: 230px;
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-} 
+    }
+    .imagen-var {
+        margin-top: -590px;
+        width: 309px;
+        Height: 204px;
+        margin-left: 22px;
+    }
+    .tamanio-textoVar {
+        width: 100%;
+        margin-left: -10px;
+        margin-top: -270px;
+    }
+    .tamanio-textoVar p {
+        color: black;
+        margin-left: 30px !important;
+        margin-right: 5px !important;
+        margin-top: 300px !important;
+        font-family: 'Merriweather', serif;
+        font-size: 11px !important;
+        line-height: 15px !important;
+        width: 339px;
+    }
+    .video-productos {
+        Width: 339px;
+        Height: 230px;
+        margin-left: 18px;
+        margin-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
 }
