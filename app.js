@@ -1,8 +1,8 @@
 /*Navbar transparente a Navbar color*/
 
-$(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() < 720) {
+$(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() < 320) {
             $('#navscroll').addClass("gris");
         } else {
             $('#navscroll').removeClass("gris");
@@ -11,9 +11,9 @@ $(function () {
     });
 });
 
-$(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 720) {
+$(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 320) {
             $('#navscroll').addClass("azul");
         } else {
             $('#navscroll').removeClass("azul");
@@ -48,5 +48,3 @@ async function handleSubmit(event) {
 
     }
 }
-
-

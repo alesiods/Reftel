@@ -142,7 +142,7 @@ ul li a {
 }
 
 .card {
-    border-radius: 15px;
+    border-radius: 15px !important;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -171,8 +171,9 @@ ul li a {
     position: absolute;
     z-index: 1;
     padding-top: 150px;
-    padding-left: 30px;
+    margin: 0 auto;
     justify-content: center;
+    margin-right: 0 !important;
 }
 
 .ubicacionCaract h4 {
@@ -233,7 +234,7 @@ ul li a {
 /*Contacto*/
 
 .mensaje {
-    margin-left: 145px;
+    margin-left: 152px;
     margin-top: 50px;
     line-height: 40px;
     font-size: 37px;
@@ -295,6 +296,11 @@ footer {
 .cajaFooter {
     padding-top: 50px;
     height: 45vh;
+}
+
+.telefonoFooter {
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 
@@ -430,7 +436,7 @@ footer {
 
 .tamanio-textoIntercomunicador {
     width: 588px;
-    margin-left: -10px;
+    margin-left: -18px;
 }
 
 .tamanio-textoIntercomunicador p {
@@ -546,6 +552,15 @@ footer {
     .navbar-toggler {
         margin-top: -45px;
     }
+    .gris {
+        background-color: rgba(0, 0, 0, 0.007);
+    }
+    .navbar-collapse {
+        background-color: #353554af;
+    }
+    ul li {
+        margin-top: 20px;
+    }
     /* HOME*/
     /* Seccion portada */
     .img-portada-home {
@@ -582,14 +597,14 @@ footer {
     .card-title {
         font-size: 13px !important;
         line-height: 20px;
-        padding-left: 0;
+        padding-left: 0 !important;
     }
     .card-text {
         font-family: Merriweather;
         font-size: 11px;
         line-height: 15px;
         color: black;
-        padding-left: 0;
+        padding-left: 0px !important;
     }
     .btn-dark {
         width: 96px;
@@ -626,7 +641,7 @@ footer {
     }
     .tamanioCaract i {
         margin-bottom: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .tamanioCaract p {
         font-family: Merriweather;
@@ -655,7 +670,7 @@ footer {
     }
     /*Contacto*/
     .mensaje {
-        margin-left: 145px;
+        margin-left: 20px;
         margin-top: 0px;
         line-height: 40px;
         font-size: 25px;
@@ -665,7 +680,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
     .contenedor-unoContacto {
         width: 299px;
@@ -708,7 +723,7 @@ footer {
         background-color: #00000009;
     }
     .cajaFooter {
-        padding-top: 50px;
+        padding-top: 20px;
         width: 375px;
         height: 150px;
     }
@@ -761,7 +776,7 @@ footer {
     }
     .cardnosotros {
         width: 329px;
-        height: 329px;
+        height: 349px;
         border-radius: 8px;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
         overflow: hidden;
@@ -773,14 +788,14 @@ footer {
     .card-title {
         font-size: 13px !important;
         line-height: 20px;
-        padding-left: 10px;
+        margin-left: 5px;
         margin-top: 15px;
     }
     .card-text {
         text-decoration: none;
         color: black;
         font-family: 'Merriweather', serif;
-        padding-left: 10px;
+        margin-left: 5px;
         font-size: 11px;
         line-height: 15px;
     }
@@ -788,7 +803,7 @@ footer {
         background-color: #353554;
         border: 0.1px solid #353554;
         width: 100px;
-        margin-left: 30px;
+        margin-left: 5px;
         border-radius: 10px;
     }
     /* PAGINA PRODUCTOS*/
@@ -842,9 +857,6 @@ footer {
         line-height: 15px !important;
     }
     /* Cards productos */
-    .margen-cardMobile {
-        margin-left: 15px;
-    }
     .titulo-cardProductos {
         font-size: 12px !important;
         line-height: 40px;
