@@ -23,8 +23,7 @@ $(function () {
 });
 
 
-/*Funcion Formulario*/
-
+//Funcion Formulario
 const $form = document.querySelector('#form')
 $form.addEventListener('submit', handleSubmit)
 
@@ -39,5 +38,13 @@ async function handleSubmit(event) {
         }
     })
 
+    if (response.ok) {
+        this.reset()
+        swal({
+            title: "Tu mensaje fue enviado!",
+            text: "Gracias por contactarte, nos comunicaremos contigo lo mas pronto posible.",
+            icon: "success",
+        });
 
+    }
 }
